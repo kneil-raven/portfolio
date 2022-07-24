@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+    background-color: #F3F1F5;
+}
+
+span {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+/* headings, anchors */
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:#211520;
+    transition: 0.3s;
+}
+
+a:hover {
+    /* color: #ECF4F3; */
+    color: #c5c0cc;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5rem;
+    color: #211520;
+    transition: 0.3s;
+}
+
+h1:hover {
+    color: #ECF4F3;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color:#211520;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color:#211520;
+}
+
+
+/* start of header part/ navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    /* background-color: #cfd9df; */
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+header:hover {
+    background-position: center bottom;
+    color: #fff;
+    text-decoration: none;
+}
+
+li {
+    font-size: 1.4rem;
+    display: inline-block;
+    line-height: 1.6;
+    margin-right: 15px;
+    padding: 10px;
+
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+    margin: 10px auto 10px 40px;
+    cursor: pointer;
+}
+
+/* end of header part/navigation */
+/* start of introduction part, top container */
+
+.profile {
+    width: 70%;
+    text-align: left;
+    margin: 20px 20px 400px 50px;
+}
+
+.profile-description {
+    margin: 50px auto auto 150px;
+}
+
+.raven-img {
+    width: 30%;
+    float: left;
+    margin: auto 50px auto auto;
+}
+
+.info-list li {
+    font-size: 1rem;
+    line-height: 1;
+    margin-left: 0;
+    padding: 0;   
+}
+
+
+/* end of introduction part */
+/* start of skills part, middle container */
+.middle-container {
+    margin: 50px 0;
+    padding-bottom: 2px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 80px auto 300px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-1 {
+    width: 40%;
+    float: left;
+}
+
+.skill1-description {
+    text-align: right;
+}
+
+.skill-2 {
+    width: 40%;
+    float: right;
+}
+
+
+/* .skill2-description {
+    text-align: left;
+} */
+
+.skill-3 {
+    width: 40%;
+    float: left;
+}
+
+.skill3-description {
+    text-align: right;
+}
+
+.skill-dvplmnt-img {
+    width: 40%;
+    margin: 30px;
+}
+
+/* end of skills part */
+/* start of projects part */
+.project-set {
+    width: 100%;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: row ;
+    align-content: space-between;
+    line-height: 2;
+}
+
+.project-set .project-flex {
+    display: flex;
+    flex-direction: row ;
+    align-content: space-between;
+}
+
+.project-1 {
+    width: 50%;
+}
+
+.project-2 {
+    width: 50%;
+}
+
+.desc-1 {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+.desc-2 {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+/* end of projects part */
+/* start of contact me part */
+.contact-me {
+    margin: 150px auto;
+
+}
+
+.btn {
+    display: block;
+    font-size: 1.5rem;
+    width: 17%;
+    padding: 8px;
+    border-radius: 12px;
+    text-decoration: none;
+    margin: auto;
+    background-color: #8EC5FC;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #24C6DC 0%, #514A9D  51%, #24C6DC  100%);
+    box-shadow: 0 0 20px #eee;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-position: center bottom;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-msg {
+    width: 30%;
+    margin: auto auto 100px;
+    line-height: 2;
+
+}
+
+/* end of contact me part */
+/* start of footer part, bottom */
+.bottom-container {
+    /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    height: 100%;
+    padding: 30px;
+}
+
+.copyright {
+    margin-top: 50px;
+}
+
+.bottom-container .socials a {
+    margin: 30px;
+    text-align: center;
+}
+
+
+
+/* EXPERIENCE PAGE */
+.exp-div {
+    margin: 100px;
+}
